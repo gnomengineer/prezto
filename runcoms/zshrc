@@ -12,13 +12,21 @@ fi
 
 alias ping='ping -c 3'
 alias gita='git add'
-alias gitp='git pull; git push'
 alias gitc='git commit -m'
+alias gitpull='git pull --rebase'
+alias gits='git status'
 alias octave='octave --no-gui'
 alias minecraft='java -jar ~/minecraft/Minecraft.jar'
 alias lua='lua -i -e "_PROMPT=\"lua>>\""'
 alias netstartx='connectWifi; startx'
 alias vim='nvim'
+alias bcl='bc -l <<<'
+alias squish='/opt/squish/squishide'
+alias gitka='gitk --all &'
+alias rtm='rememberthemilk &'
+alias taskl='clear && task list'
+alias sclear='clear; motd ${motd_msg}'
+
 
 # Customize to your needs...
 PATH=$PATH:~/scripts/
